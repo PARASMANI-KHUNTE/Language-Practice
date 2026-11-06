@@ -1,29 +1,92 @@
-# 📚 Programming Languages Practice Hub
+# 📚 Polyglot Engineering & Language Practice Hub
 
-A comprehensive, curriculum-aligned repository containing **443 standalone practice programs** across **7 major programming languages** categorized into **Basic**, **Intermediate**, **Advanced**, and **Data Structures & Algorithms (DSA)** tiers.
+A production-grade, curriculum-aligned code repository containing **443 standalone practice programs** across **7 major programming languages**.
 
----
-
-## 📊 Quick Summary Table
-
-| Language | Basic | Intermediate | Advanced | DSA | Total Files |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| **Python** | 15 | 18 | 12 | 20 | **65** |
-| **JavaScript** | 18 | 15 | 12 | 20 | **65** |
-| **TypeScript** | 16 | 14 | 10 | 20 | **60** |
-| **Rust** | 16 | 16 | 11 | 20 | **63** |
-| **Go** | 16 | 17 | 11 | 20 | **64** |
-| **Java** | 15 | 15 | 14 | 20 | **64** |
-| **C** | 15 | 14 | 13 | 20 | **62** |
-| **TOTAL** | **111** | **109** | **83** | **140** | **443** |
+Every language features a **progressive 4-tier journey** from core language syntax to advanced architectural patterns and competitive Data Structures & Algorithms (DSA). Each directory also includes an in-depth engineering and ecosystem guide.
 
 ---
 
-## 🗂️ Language Directory Index
+## 📊 Complete Workspace Matrix
 
-### 🔹 Python
+| Language | Ecosystem Guide | Basic | Intermediate | Advanced | DSA | Total Programs | Primary Industry Domains |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| **🐍 Python** | [📖 Guide](Python/README.md) | 15 | 18 | 12 | 20 | **65** | AI/ML, Data Science, Backend APIs (FastAPI/Django), Automation |
+| **🟨 JavaScript** | [📖 Guide](JavaScript/README.md) | 18 | 15 | 12 | 20 | **65** | Full-Stack Web, Modern Frontends (React/Next.js), Mobile (React Native), Desktop |
+| **🔷 TypeScript** | [📖 Guide](TypeScript/README.md) | 16 | 14 | 10 | 20 | **60** | Enterprise Web, End-to-End Type Safety (tRPC/NestJS), Scalable Systems |
+| **🦀 Rust** | [📖 Guide](Rust/README.md) | 16 | 16 | 11 | 20 | **63** | Systems Programming, Memory Safety without GC, High-Perf Microservices (Tokio/Axum), WebAssembly |
+| **🐹 Go** | [📖 Guide](Go/README.md) | 16 | 17 | 11 | 20 | **64** | Cloud-Native Infrastructure (Kubernetes/Docker), Microservices (gRPC/Gin), Network Systems |
+| **☕ Java** | [📖 Guide](Java/README.md) | 15 | 15 | 14 | 20 | **64** | Enterprise Financial Systems, Spring Boot 3, Big Data (Kafka/Spark), Virtual Threads |
+| **🇨 C** | [📖 Guide](C/README.md) | 15 | 14 | 13 | 20 | **62** | OS Kernels (Linux), Embedded Systems, Real-Time Audio/Graphics, Device Drivers |
+| **TOTAL** | — | **111** | **109** | **83** | **140** | **443** | **Full-Stack, Systems, AI/ML, Cloud & DSA** |
+
+---
+
+## 📖 Detailed Language Guides
+
+Each language directory includes an in-depth engineering roadmap covering industry frameworks, tools, runtimes, package managers, and production architecture:
+
+- [🐍 **Python Engineering Guide**](Python/README.md) — FastAPI, Django, PyTorch, LangChain, uv, Celery, and data pipelines.
+- [🟨 **JavaScript Engineering Guide**](JavaScript/README.md) — React, Next.js, Express, Node/Bun runtimes, Vite, and WebSockets.
+- [🔷 **TypeScript Engineering Guide**](TypeScript/README.md) — tRPC, NestJS, Prisma/Drizzle, Zod schema inference, and compiler optimization.
+- [🦀 **Rust Engineering Guide**](Rust/README.md) — Tokio async runtime, Axum, Serde, WebAssembly, Bevy game engine, and Cargo tools.
+- [🐹 **Go Engineering Guide**](Go/README.md) — Gin, gRPC, Cobra CLI, Goroutine profiling (`pprof`), and cloud-native infrastructure.
+- [☕ **Java Engineering Guide**](Java/README.md) — Spring Boot 3, Quarkus, Kafka, Spark, Virtual Threads (Project Loom), and Maven/Gradle.
+- [🇨 **C Systems Guide**](C/README.md) — Linux Kernels, FreeRTOS, SQLite/Redis internals, POSIX threads, and AddressSanitizer (ASan).
+
+---
+
+## 🧩 20-Topic Universal DSA Progression
+
+Each language includes an identical, progressive **20-topic DSA suite** in its `d_dsa/` directory:
+
+```
+├── 01_array_operations             (Prefix sum, two pointers, sliding window)
+├── 02_singly_linked_list           (Nodes, traversal, reversal, cycle detection)
+├── 03_doubly_linked_list           (Prev/next pointers, bidirectional traversal)
+├── 04_stack_array_and_list         (LIFO, balanced parentheses validator)
+├── 05_queue_and_deque              (FIFO, circular queue buffer, deque)
+├── 06_linear_and_binary_search     (Iterative & recursive binary search)
+├── 07_basic_sorting                (Bubble, Selection, Insertion Sort)
+├── 08_divide_and_conquer_sorting   (Merge Sort, Quick Sort partition)
+├── 09_hash_table                   (Hash function, collision handling via chaining)
+├── 10_binary_search_tree           (BST invariant, insertion, inorder traversal)
+├── 11_heap_and_priority_queue      (Min/Max Heap, heapify, priority extraction)
+├── 12_graph_representations        (Adjacency List & Adjacency Matrix)
+├── 13_breadth_first_search         (BFS shortest path on unweighted graphs)
+├── 14_depth_first_search           (DFS traversal, connected components)
+├── 15_recursion_and_backtracking   (Subsets & permutations generation)
+├── 16_trie_prefix_tree             (Prefix matching, word dictionary)
+├── 17_disjoint_set_union           (Union-Find with path compression)
+├── 18_dijkstra_shortest_path       (Weighted shortest path exploration)
+├── 19_topological_sort             (DAG dependency resolution, Kahn's algorithm)
+└── 20_dynamic_programming          (0/1 Knapsack, Longest Common Subsequence)
+```
+
+---
+
+## 🧪 Automated Testing & Health Check Suites
+
+Run verification scripts directly from the workspace root:
+
+```bash
+# 1. Run universal health audit across all 7 languages and verify toolchains:
+python run_suite.py
+
+# 2. Execute and validate all 65 Python scripts:
+python test_python.py
+
+# 3. Syntax validate all 65 JavaScript files via Node.js:
+node test_js.js
+```
+
+---
+
+## 🗂️ Interactive Code Navigator
+
+### 🐍 Python (`Python/`) — [Read Ecosystem Guide](Python/README.md)
+
 <details>
-<summary><b>Basic (15 files)</b> - <code>Python/a_basic/</code></summary>
+<summary><b>Basic (15 files)</b> — <code>Python/a_basic/</code></summary>
 
 - [01_hello_world.py](Python/a_basic/01_hello_world.py)
 - [02_variables_and_datatypes.py](Python/a_basic/02_variables_and_datatypes.py)
@@ -44,7 +107,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (18 files)</b> - <code>Python/b_intermediate/</code></summary>
+<summary><b>Intermediate (18 files)</b> — <code>Python/b_intermediate/</code></summary>
 
 - [01_oop_classes_objects.py](Python/b_intermediate/01_oop_classes_objects.py)
 - [02_inheritance_polymorphism.py](Python/b_intermediate/02_inheritance_polymorphism.py)
@@ -68,7 +131,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (12 files)</b> - <code>Python/c_advanced/</code></summary>
+<summary><b>Advanced (12 files)</b> — <code>Python/c_advanced/</code></summary>
 
 - [01_multithreading.py](Python/c_advanced/01_multithreading.py)
 - [02_multiprocessing.py](Python/c_advanced/02_multiprocessing.py)
@@ -86,7 +149,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>Python/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>Python/d_dsa/</code></summary>
 
 - [01_array_operations.py](Python/d_dsa/01_array_operations.py)
 - [02_singly_linked_list.py](Python/d_dsa/02_singly_linked_list.py)
@@ -111,9 +174,10 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 
 </details>
 
-### 🔹 JavaScript
+### 🟨 JavaScript (`JavaScript/`) — [Read Ecosystem Guide](JavaScript/README.md)
+
 <details>
-<summary><b>Basic (18 files)</b> - <code>JavaScript/a_basic/</code></summary>
+<summary><b>Basic (18 files)</b> — <code>JavaScript/a_basic/</code></summary>
 
 - [01_hello_world.js](JavaScript/a_basic/01_hello_world.js)
 - [02_variables_and_datatypes.js](JavaScript/a_basic/02_variables_and_datatypes.js)
@@ -137,7 +201,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (15 files)</b> - <code>JavaScript/b_intermediate/</code></summary>
+<summary><b>Intermediate (15 files)</b> — <code>JavaScript/b_intermediate/</code></summary>
 
 - [01_closures.js](JavaScript/b_intermediate/01_closures.js)
 - [02_this_keyword.js](JavaScript/b_intermediate/02_this_keyword.js)
@@ -158,7 +222,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (12 files)</b> - <code>JavaScript/c_advanced/</code></summary>
+<summary><b>Advanced (12 files)</b> — <code>JavaScript/c_advanced/</code></summary>
 
 - [01_proxy_and_reflect.js](JavaScript/c_advanced/01_proxy_and_reflect.js)
 - [02_advanced_promises.js](JavaScript/c_advanced/02_advanced_promises.js)
@@ -176,7 +240,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>JavaScript/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>JavaScript/d_dsa/</code></summary>
 
 - [01_array_operations.js](JavaScript/d_dsa/01_array_operations.js)
 - [02_singly_linked_list.js](JavaScript/d_dsa/02_singly_linked_list.js)
@@ -201,9 +265,10 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 
 </details>
 
-### 🔹 TypeScript
+### 🔷 TypeScript (`TypeScript/`) — [Read Ecosystem Guide](TypeScript/README.md)
+
 <details>
-<summary><b>Basic (16 files)</b> - <code>TypeScript/a_basic/</code></summary>
+<summary><b>Basic (16 files)</b> — <code>TypeScript/a_basic/</code></summary>
 
 - [01_hello_world.ts](TypeScript/a_basic/01_hello_world.ts)
 - [02_type_annotations.ts](TypeScript/a_basic/02_type_annotations.ts)
@@ -225,7 +290,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (14 files)</b> - <code>TypeScript/b_intermediate/</code></summary>
+<summary><b>Intermediate (14 files)</b> — <code>TypeScript/b_intermediate/</code></summary>
 
 - [01_generics_advanced.ts](TypeScript/b_intermediate/01_generics_advanced.ts)
 - [02_conditional_types.ts](TypeScript/b_intermediate/02_conditional_types.ts)
@@ -245,7 +310,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (10 files)</b> - <code>TypeScript/c_advanced/</code></summary>
+<summary><b>Advanced (10 files)</b> — <code>TypeScript/c_advanced/</code></summary>
 
 - [01_advanced_generics.ts](TypeScript/c_advanced/01_advanced_generics.ts)
 - [02_type_level_programming.ts](TypeScript/c_advanced/02_type_level_programming.ts)
@@ -261,7 +326,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>TypeScript/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>TypeScript/d_dsa/</code></summary>
 
 - [01_array_operations.ts](TypeScript/d_dsa/01_array_operations.ts)
 - [02_singly_linked_list.ts](TypeScript/d_dsa/02_singly_linked_list.ts)
@@ -286,9 +351,10 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 
 </details>
 
-### 🔹 Rust
+### 🦀 Rust (`Rust/`) — [Read Ecosystem Guide](Rust/README.md)
+
 <details>
-<summary><b>Basic (16 files)</b> - <code>Rust/a_basic/</code></summary>
+<summary><b>Basic (16 files)</b> — <code>Rust/a_basic/</code></summary>
 
 - [01_hello_world.rs](Rust/a_basic/01_hello_world.rs)
 - [02_variables_and_mutability.rs](Rust/a_basic/02_variables_and_mutability.rs)
@@ -310,7 +376,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (16 files)</b> - <code>Rust/b_intermediate/</code></summary>
+<summary><b>Intermediate (16 files)</b> — <code>Rust/b_intermediate/</code></summary>
 
 - [01_error_handling.rs](Rust/b_intermediate/01_error_handling.rs)
 - [02_traits.rs](Rust/b_intermediate/02_traits.rs)
@@ -332,7 +398,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (11 files)</b> - <code>Rust/c_advanced/</code></summary>
+<summary><b>Advanced (11 files)</b> — <code>Rust/c_advanced/</code></summary>
 
 - [01_concurrency_threads.rs](Rust/c_advanced/01_concurrency_threads.rs)
 - [02_channels_and_messaging.rs](Rust/c_advanced/02_channels_and_messaging.rs)
@@ -349,7 +415,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>Rust/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>Rust/d_dsa/</code></summary>
 
 - [01_array_operations.rs](Rust/d_dsa/01_array_operations.rs)
 - [02_singly_linked_list.rs](Rust/d_dsa/02_singly_linked_list.rs)
@@ -374,9 +440,10 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 
 </details>
 
-### 🔹 Go
+### 🐹 Go (`Go/`) — [Read Ecosystem Guide](Go/README.md)
+
 <details>
-<summary><b>Basic (16 files)</b> - <code>Go/a_basic/</code></summary>
+<summary><b>Basic (16 files)</b> — <code>Go/a_basic/</code></summary>
 
 - [01_hello_world.go](Go/a_basic/01_hello_world.go)
 - [02_variables_and_types.go](Go/a_basic/02_variables_and_types.go)
@@ -398,7 +465,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (17 files)</b> - <code>Go/b_intermediate/</code></summary>
+<summary><b>Intermediate (17 files)</b> — <code>Go/b_intermediate/</code></summary>
 
 - [01_interfaces.go](Go/b_intermediate/01_interfaces.go)
 - [02_type_switch.go](Go/b_intermediate/02_type_switch.go)
@@ -421,7 +488,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (11 files)</b> - <code>Go/c_advanced/</code></summary>
+<summary><b>Advanced (11 files)</b> — <code>Go/c_advanced/</code></summary>
 
 - [01_concurrency_patterns.go](Go/c_advanced/01_concurrency_patterns.go)
 - [02_context_package.go](Go/c_advanced/02_context_package.go)
@@ -438,7 +505,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>Go/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>Go/d_dsa/</code></summary>
 
 - [01_array_operations.go](Go/d_dsa/01_array_operations.go)
 - [02_singly_linked_list.go](Go/d_dsa/02_singly_linked_list.go)
@@ -463,9 +530,10 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 
 </details>
 
-### 🔹 Java
+### ☕ Java (`Java/`) — [Read Ecosystem Guide](Java/README.md)
+
 <details>
-<summary><b>Basic (15 files)</b> - <code>Java/a_basic/</code></summary>
+<summary><b>Basic (15 files)</b> — <code>Java/a_basic/</code></summary>
 
 - [01_hello_world.java](Java/a_basic/01_hello_world.java)
 - [02_variables_and_datatypes.java](Java/a_basic/02_variables_and_datatypes.java)
@@ -486,7 +554,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (15 files)</b> - <code>Java/b_intermediate/</code></summary>
+<summary><b>Intermediate (15 files)</b> — <code>Java/b_intermediate/</code></summary>
 
 - [01_inheritance.java](Java/b_intermediate/01_inheritance.java)
 - [02_polymorphism.java](Java/b_intermediate/02_polymorphism.java)
@@ -507,7 +575,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (14 files)</b> - <code>Java/c_advanced/</code></summary>
+<summary><b>Advanced (14 files)</b> — <code>Java/c_advanced/</code></summary>
 
 - [01_streams_api.java](Java/c_advanced/01_streams_api.java)
 - [02_optional_class.java](Java/c_advanced/02_optional_class.java)
@@ -527,7 +595,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>Java/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>Java/d_dsa/</code></summary>
 
 - [01_array_operations.java](Java/d_dsa/01_array_operations.java)
 - [02_singly_linked_list.java](Java/d_dsa/02_singly_linked_list.java)
@@ -552,9 +620,10 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 
 </details>
 
-### 🔹 C
+### 🇨 C (`C/`) — [Read Ecosystem Guide](C/README.md)
+
 <details>
-<summary><b>Basic (15 files)</b> - <code>C/a_basic/</code></summary>
+<summary><b>Basic (15 files)</b> — <code>C/a_basic/</code></summary>
 
 - [01_hello_world.c](C/a_basic/01_hello_world.c)
 - [02_variables_and_datatypes.c](C/a_basic/02_variables_and_datatypes.c)
@@ -575,7 +644,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Intermediate (14 files)</b> - <code>C/b_intermediate/</code></summary>
+<summary><b>Intermediate (14 files)</b> — <code>C/b_intermediate/</code></summary>
 
 - [01_pointers_and_functions.c](C/b_intermediate/01_pointers_and_functions.c)
 - [02_function_pointers.c](C/b_intermediate/02_function_pointers.c)
@@ -595,7 +664,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Advanced (13 files)</b> - <code>C/c_advanced/</code></summary>
+<summary><b>Advanced (13 files)</b> — <code>C/c_advanced/</code></summary>
 
 - [01_void_pointers_and_generic_functions.c](C/c_advanced/01_void_pointers_and_generic_functions.c)
 - [02_double_pointers.c](C/c_advanced/02_double_pointers.c)
@@ -614,7 +683,7 @@ A comprehensive, curriculum-aligned repository containing **443 standalone pract
 </details>
 
 <details>
-<summary><b>Data Structures & Algorithms (20 files)</b> - <code>C/d_dsa/</code></summary>
+<summary><b>Data Structures & Algorithms (20 files)</b> — <code>C/d_dsa/</code></summary>
 
 - [01_array_operations.c](C/d_dsa/01_array_operations.c)
 - [02_singly_linked_list.c](C/d_dsa/02_singly_linked_list.c)
